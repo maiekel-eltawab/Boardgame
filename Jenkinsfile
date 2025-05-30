@@ -1,8 +1,4 @@
 pipeline {
-    agent { 
-        label 'gcp'
-    }
-
     tools {
         maven 'maven'
         jdk 'jdk 17'
