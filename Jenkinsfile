@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent { 
+        label 'gcp'
+    }
 
     tools {
         maven 'maven'
